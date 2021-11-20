@@ -13,7 +13,7 @@ body {
   line-height: 2;
   font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   /* TODO */
-  background-color: #dc143c;
+  background-color:   #f5f1f2;
 }
 
 *,
@@ -40,7 +40,7 @@ body {
   padding: 10px 10px;
   display: flex;/* 子要素をflexboxで揃える */
   align-items: center;  /* 子要素をflexboxにより中央に配置する */
-  background-color: #fff;
+  background-color: rgb(185, 247, 213);
   box-shadow: 0 0 10px 1px #858360;
 
 }
@@ -95,7 +95,7 @@ margin: 0 10%;
 }
 /* ▼入力チェック結果の表示ボックスの装飾 */
 .error-message {
-  color: red;                             /* 文字色(赤色) */
+  color: #ff0241;                             /* 文字色(赤色) */
   border-radius: 0.5em;                   /* 角丸(半径0.5文字分) */
 }
 /* ▼入力チェック結果でエラーがない場合は非表示にする */
